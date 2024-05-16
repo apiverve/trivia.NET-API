@@ -94,13 +94,13 @@ if(response.error != null) {
   "status": "ok",
   "error": null,
   "data": {
-    "question": "What word means fear of prostitutes or venereal disease?",
-    "answer": "Cypridophobia",
+    "question": "In chemistry, this term refers to two elements with the same atomic number, but different atomic weights.",
+    "answer": "Isotopes",
     "options": [
-      "A Cynophobia",
-      "B Cyclophobia",
-      "C Cypridophobia",
-      "D Cymophobia"
+      "A Isotopes",
+      "B Alleles",
+      "C Isochronics",
+      "D Isosceles"
     ],
     "category": "general"
   }
