@@ -94,13 +94,13 @@ if(response.error != null) {
   "status": "ok",
   "error": null,
   "data": {
-    "question": "In chemistry, this term refers to two elements with the same atomic number, but different atomic weights.",
-    "answer": "Isotopes",
+    "question": "When a contestant selects the Daily Double on the game show Jeopardy! what is the least amount the player can wager?",
+    "answer": "$5",
     "options": [
-      "A Isotopes",
-      "B Alleles",
-      "C Isochronics",
-      "D Isosceles"
+      "A $5",
+      "B $100",
+      "C $50",
+      "D $250"
     ],
     "category": "general"
   }
