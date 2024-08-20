@@ -70,7 +70,7 @@ Using the API client, you can perform requests to the API.
 ###### Define Query
 
 ```
-var queryOptions = new triviaQueryOptions {
+var queryOptions = new TriviaGeneratorQueryOptions {
   category = "general"
 };
 ```
@@ -94,16 +94,17 @@ if(response.error != null) {
   "status": "ok",
   "error": null,
   "data": {
-    "question": "When a contestant selects the Daily Double on the game show Jeopardy! what is the least amount the player can wager?",
-    "answer": "$5",
+    "question": "According to the popular TV show, at what restaurant does Alice work?",
+    "answer": "Mels Diner",
     "options": [
-      "A $5",
-      "B $100",
-      "C $50",
-      "D $250"
+      "A Dennys",
+      "B Burger King",
+      "C McDonalds",
+      "D Mels Diner"
     ],
     "category": "general"
-  }
+  },
+  "code": 200
 }
 ```
 
