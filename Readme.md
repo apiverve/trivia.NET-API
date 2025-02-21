@@ -32,9 +32,9 @@ From within Visual Studio:
 
 1. Open the Solution Explorer.
 2. Right-click on a project within your solution.
-3. Click on Manage NuGet Packages...
+3. Click on Manage NuGet Packages..
 4. Click on the Browse tab and search for "APIVerve.API.TriviaGenerator".
-5. Click on the APIVerve.API.TriviaGenerator package, select the appropriate version in the right-tab and click Install.
+5. Click on the APIVerve.API.TriviaGenerator package, click Install.
 
 
 ---
@@ -94,11 +94,13 @@ if(response.error != null) {
   "status": "ok",
   "error": null,
   "data": {
-    "question": "The Los Angeles Earthquake of 1916 caused a 3-day fire.",
-    "answer": "False",
+    "question": "What kind of person is described by the expression green around the gills?",
+    "answer": "Physically ill",
     "options": [
-      "A False",
-      "B True"
+      "A Physically ill",
+      "B New at fishing",
+      "C Gardner novice",
+      "D Jealous over someone"
     ],
     "category": "general"
   },
@@ -128,7 +130,7 @@ All usage of the APIVerve website, API, and services is subject to the [APIVerve
 ## License
 Licensed under the The MIT License (MIT)
 
-Copyright (&copy;) 2024 APIVerve, and Evlar LLC
+Copyright (&copy;) 2025 APIVerve, and EvlarSoft LLC
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
